@@ -26,6 +26,7 @@ def run_802_3av(N, Tw_max, T, k):
     P = []
     for ii in range(len(N)):
         P.append([])
+        print('{0:03}/{1:03}'.format(ii,len(N)-1),end="\r")
         tmax = 10e-6
         t = uniform(0, tmax, [int(N[ii]), k])
         for jj in range(len(Tw_max)):
