@@ -55,7 +55,7 @@ N = np.linspace(Nmin, Nmax, nN)
 Tw_max = np.linspace(Tw_max1, Tw_max2, nTw_max)
 
 T = 2.2912e-6  # discovery window duration
-k = 10  # number of replications
+k = 10000  # number of replications
 
 X, Y = np.meshgrid(Tw_max, N)  # needed for 3D wireframe drawing
 
