@@ -23,22 +23,21 @@ def graphic(Y, X, U):
 
 
 def run_802_3av(N, Tw_max, T, k):
-        P = []
-        for ii in range(len(N)):
-                P.append([])
-                print('{0:03}/{1:03}'.format(ii,len(N)-1),end="\r")
-                for jj in range(len(Tw_max)):
-                        Tw = uniform(0, Tw_max[jj], [int(N[ii]), k])              
-                        Q = zeros([int(N[ii]), k])
-                        for i in range(int(N[ii])):
-                                D = zeros([int(N[ii]), k])
-                                for j in range(int(N[ii])):
-                                        D[j, :] = (abs(Tw[j, :] - Tw[i, :]) > T)
-                                Q[i, :] = (sum(D, axis=0) == (int(N[ii])-1))
-                        Pi = sum(Q, axis=0)/N[ii]
-                        P[ii].append(sum(Pi)/k)
-        return P
-
+    P = []
+    for ii in range(len(N)):
+        P.append([])
+        print('{0:03}/{1:03}'.format(ii, len(N)-1), end="\r")
+        for jj in range(len(Tw_max)):
+            Tw = uniform(0, Tw_max[jj], [int(N[ii]), k])
+            Q = zeros([int(N[ii]), k])
+            for i in range(int(N[ii])):
+                D = zeros([int(N[ii]), k])
+                for j in range(int(N[ii])):
+                    D[j, :] = (abs(Tw[j, :] - Tw[i, :]) > T)
+                Q[i, :] = (sum(D, axis=0) == (int(N[ii])-1))
+            Pi = sum(Q, axis=0)/N[ii]
+            P[ii].append(sum(Pi)/k)
+    return P
 
 
 Nmin = 2  # minimal number of ONU
@@ -58,7 +57,8 @@ k = 10000  # number of replications
 X, Y = np.meshgrid(Tw_max, N)  # needed for 3D wireframe drawing
 
 # probability of success for equidistant ONU
-P = run_802_3av(N,Tw_max,T,k)
-U = np.array(Y,dtype=float)*np.array(P,dtype=float)*T/(T+np.array(X,dtype=float))
+P = run_802_3av(N, Tw_max, T, k)
+U = np.array(Y, dtype=float)*np.array(P, dtype=float) * \
+    T/(T+np.array(X, dtype=float))
 
 graphic(Y, X, U)
