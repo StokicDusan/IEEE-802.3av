@@ -26,7 +26,7 @@ def run_802_3av(N, Tw_max, T, k):
     P = []
     for ii in range(len(N)):
         P.append([])
-        print('{0:03}/{1:03}'.format(ii,len(N)-1),end="\r")
+        print('{0:03}/{1:03}'.format(ii, len(N)-1), end="\r")
         tmax = 10e-6
         t = uniform(0, tmax, [int(N[ii]), k])
         for jj in range(len(Tw_max)):
@@ -43,15 +43,15 @@ def run_802_3av(N, Tw_max, T, k):
     return P, tmax
 
 
-Nmin = 2  # minimal number of ONU
-Nmax = 64  # maximal number of ONU
-nN = int(Nmax/2-1)  # number of samples in range [Nmin, Nmax]
+Nmax1 = 2  # minimal number of ONU
+Nmax2 = 64  # maximal number of ONU
+nN = int(Nmax2/2-1)  # number of samples in range [Nmax1, Nmax2]
 
 Tw_max1 = 1e-6  # minimal value for maximal random wait time
 Tw_max2 = 500e-6  # maximal value for maximal random wait time
 nTw_max = 50  # number of samples in range [Tw_max1, Tw_max2]
 
-N = np.linspace(Nmin, Nmax, nN)
+N = np.linspace(Nmax1, Nmax2, nN)
 Tw_max = np.linspace(Tw_max1, Tw_max2, nTw_max)
 
 T = 2.2912e-6  # discovery window duration
