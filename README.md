@@ -26,24 +26,24 @@ $> cd IEEE-802.3av
 In the command line simply invoke the scripts:
 ```zsh
 $> python 802-3av-cluster.py
-$ >python 802-3av-random.py
-$ >python 802-3av-equidistant.py
+$> python 802-3av-random.py
+$> python 802-3av-equidistant.py
 ```
 ## Results
 Figures of invoked scripts with 10000 of replications are seen below
 
-<span class="img_container center" style="display: block;">
+- Equidistant ONU: <span class="img_container center" style="display: block;">
+    <br />
     <img alt="test" src="https://github.com/StokicDusan/IEEE-802.3av/blob/master/assets/Figure_1.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
-    <span class="img_caption" style="display: block; text-align: center;">equidistant ONU</span>
 </span>
 
-<span class="img_container center" style="display: block;">
-    <img alt="test" src="https://github.com/StokicDusan/IEEE-802.3av/blob/master/assets/Figure_2.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
-    <span class="img_caption" style="display: block; text-align: center;">cluster ONU</span>
+- Cluster ONU: <span class="img_container center" style="display: block;">
+    <br />
+    <img alt="test" src="https://github.com/StokicDusan/IEEE-802.3av/blob/master/assets/Figure_2.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" /> 
 </span>
 
-<span class="img_container center" style="display: block;">
+- Random ONU: <span class="img_container center" style="display: block;">
+    <br />
     <img alt="test" src="https://github.com/StokicDusan/IEEE-802.3av/blob/master/assets/Figure_3.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
-    <span class="img_caption" style="display: block; text-align: center;">random ONU</span>
 </span>
 
