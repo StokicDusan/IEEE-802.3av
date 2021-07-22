@@ -1,6 +1,8 @@
 # IEEE 802.3av simulation scripts
 
-This simulation models observe the registration procedure in IEEE 802.3av networks. The aim is to review the performance of the network during the process of finding and registering newly connected optical network units (ONUs) to the optical line terminal (OLT) 
+This simulation models observe the registration procedure in IEEE 802.3av networks. The aim is to review the performance of the network during the process of finding and registering newly connected optical network units (ONUs) to the optical line terminal (OLT).
+
+Simulations based on article [Allocation of optimal discovery slots in IEEE 802.3av networks](https://www.sciencedirect.com/science/article/abs/pii/S1434841111001981?via%3Dihub).
 
 ## `802-3av-cluster.py` :
 Scripts draw a 3D plot of the dependence of registration efficiency (U) upon the number of ONUs (N) placed in a cluster and the maximal wait time (wmax).
