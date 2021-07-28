@@ -56,6 +56,25 @@ Figures of invoked scripts with 10000 of replications are seen below
     <img alt="test" src="https://github.com/StokicDusan/IEEE-802.3av/blob/master/assets/Figure_3.png" style="display:block; margin-left: auto; margin-right: auto;" title="caption" />
 </span>
 
+Provide Feedback
+================
+
+If you encounter any bugs or have suggestions, please file an issue in the
+[Issues](https://github.com/StokicDusan/IEEE-802.3av/issues)
+section of the project.
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IEEE-802.3av
 [contributors-url]: https://github.com/StokicDusan/IEEE-802.3av/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/IEEE-802.3av?style=social
