@@ -29,7 +29,7 @@ $> pip install -r requirements.txt
 #### 1. Clone this repository:
 ```zsh
 $> git clone https://github.com/StokicDusan/IEEE-802.3av.git
-$> cd IEEE-802.3av
+$> cd IEEE-802.3av/
 ```
 #### 2. Launch
 In the command line simply invoke the scripts:
