@@ -39,7 +39,7 @@ $> python 802-3av-random.py
 $> python 802-3av-equidistant.py
 ```
 ## Results
-Figures of invoked scripts with 10000 of replications are seen below
+Figures of invoked scripts with 10000 replications are seen below
 
 - Equidistant ONU: <span class="img_container center" style="display: block;">
     <br />
