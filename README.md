@@ -2,6 +2,7 @@
 [![Commit-activity][commit-activity-shield]][commit-activity-url]
 [![Issues][issues-shield]][issues-url]
 [![Repo-size][repo-size-shield]][repo-size-url]
+[![License][license-shield]][license-url]  
 [![Forks][forks-shield]][forks-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -9,7 +10,7 @@
 
 This simulation models observe the registration procedure in IEEE 802.3av networks. The aim is to review the performance of the network during the process of finding and registering newly connected optical network units (ONUs) to the optical line terminal (OLT).
 
-Simulations based on article [Allocation of optimal discovery slots in IEEE 802.3av networks](https://www.sciencedirect.com/science/article/abs/pii/S1434841111001981?via%3Dihub).
+Simulations based on article [Allocation of optimal discovery slots in IEEE 802.3av networks][article-bjelica-peric].
 
 ## `802-3av-cluster.py` :
 Scripts draw a 3D plot of the dependence of registration efficiency (U) upon the number of ONUs (N) placed in a cluster and the maximal wait time (wmax).
@@ -21,22 +22,22 @@ Scripts draw a 3D plot of the dependence of registration efficiency (U) upon the
 
 ## Installing the dependencies
 This script require the mpl_toolkits, pylab, numpy and matplotlib package. To install the packages, execute:
-```zsh
-$> pip install -r requirements.txt
+```bash
+$ pip install -r requirements.txt
 ```
 
 ## How to use it
 #### 1. Clone this repository:
-```zsh
-$> git clone https://github.com/StokicDusan/IEEE-802.3av.git
-$> cd IEEE-802.3av/
+```bash
+$ git clone https://github.com/StokicDusan/IEEE-802.3av.git
+$ cd IEEE-802.3av/
 ```
 #### 2. Launch
 In the command line simply invoke the scripts:
-```zsh
-$> python 802-3av-cluster.py
-$> python 802-3av-random.py
-$> python 802-3av-equidistant.py
+```bash
+$ python3 802-3av-cluster.py
+$ python3 802-3av-random.py
+$ python3 802-3av-equidistant.py
 ```
 ## Results
 Figures of invoked scripts with 10000 replications are seen below
@@ -60,7 +61,7 @@ Provide Feedback
 ================
 
 If you encounter any bugs or have suggestions, please file an issue in the
-[Issues](https://github.com/StokicDusan/IEEE-802.3av/issues)
+[Issues][issues-url]
 section of the project.
 
 <!-- CONTRIBUTING -->
@@ -74,7 +75,7 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
+[article-bjelica-peric]: https://www.sciencedirect.com/science/article/abs/pii/S1434841111001981?via%3Dihub
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IEEE-802.3av
 [contributors-url]: https://github.com/StokicDusan/IEEE-802.3av/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/IEEE-802.3av?style=social
@@ -83,6 +84,8 @@ Contributions are what make the open source community such an amazing place to b
 [issues-url]: https://github.com/StokicDusan/IEEE-802.3av/issues
 [commit-activity-shield]: https://img.shields.io/github/last-commit/StokicDusan/IEEE-802.3av
 [commit-activity-url]: https://github.com/StokicDusan/IEEE-802.3av/graphs/commit-activity
+[license-url]: https://github.com/StokicDusan/IEEE-802.3av/blob/master/LICENSE
+[license-shield]: https://img.shields.io/github/license/StokicDusan/IEEE-802.3av
 [repo-size-shield]: https://img.shields.io/github/repo-size/StokicDusan/IEEE-802.3av
 [repo-size-url]: https://img.shields.io/github/repo-size/StokicDusan/IEEE-802.3av
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=plastice&logo=linkedin&logoColor=white
