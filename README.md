@@ -59,9 +59,7 @@ Figures of invoked scripts with 10000 replications are seen below
 Provide Feedback
 ================
 
-If you encounter any bugs or have suggestions, please file an issue in the
-[Issues][issues-url]
-section of the project.
+If you encounter any bugs or have suggestions, please file an issue in the [Issues][issues-url] section of the project.
 
 [article-bjelica-peric]: https://www.sciencedirect.com/science/article/abs/pii/S1434841111001981?via%3Dihub
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IEEE-802.3av
