@@ -1,4 +1,3 @@
-[![Downloads][downloads-shield]][downloads-url]
 [![Commit-activity][commit-activity-shield]][commit-activity-url]
 [![Issues][issues-shield]][issues-url]
 [![Repo-size][repo-size-shield]][repo-size-url]
@@ -63,8 +62,6 @@ Provide Feedback
 If you encounter any bugs or have suggestions, please file an issue in the [Issues][issues-url] section of the project.
 
 [article-bjelica-peric]: https://www.sciencedirect.com/science/article/abs/pii/S1434841111001981?via%3Dihub
-[downloads-shield]: https://img.shields.io/github/downloads/StokicDusan/IEEE-802.3av/total 
-[downloads-url]: https://github.com/StokicDusan/IEEE-802.3av/releases
 [contributors-shield]: https://img.shields.io/github/contributors/StokicDusan/IEEE-802.3av
 [contributors-url]: https://github.com/StokicDusan/IEEE-802.3av/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/StokicDusan/IEEE-802.3av?style=social
